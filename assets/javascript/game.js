@@ -24,13 +24,13 @@ var darth = {
     alt: "Darth Vader"
 };
 var yoda = {
-    answer: "yoda",
+    answer: "yoda ",
     universe: 0,
     picture: "./assets/images/yoda.jpeg",
     alt: "Yoda"
 };
 var thor = {
-    answer: "thor",
+    answer: "thor ",
     universe: 1,
     picture: "./assets/images/thor.jpg",
     alt: "Thor"
@@ -42,7 +42,7 @@ var spiderman = {
     alt: "Spiderman"
 };
 var ironman = {
-    answer: "ironman",
+    answer: "ironman ",
     universe: 1,
     picture: "./assets/images/ironman.jpg",
     alt: "Ironman"
@@ -54,13 +54,13 @@ var captain = {
     alt: "Captain America"
 };
 var batman = {
-    answer: "batman",
+    answer: "batman ",
     universe: 2,
     picture: "./assets/images/batman.jpg",
     alt: "Batman"
 };
 var superman = {
-    answer: "superman",
+    answer: "superman ",
     universe: 2,
     picture: "./assets/images/superman.jpg",
     alt: "Superman"
@@ -72,31 +72,31 @@ var wonder = {
     alt: "Wonder Woman"
 };
 var marshall = {
-    answer: "marshall",
+    answer: "marshall ",
     universe: 3,
     picture: "./assets/images/marshall.jpg",
     alt: "Marshall"
 };
 var skye = {
-    answer: "skye",
+    answer: "skye ",
     universe: 3,
     picture: "./assets/images/skye.jpg",
     alt: "Skye"
 };
 var chase = {
-    answer: "chase",
+    answer: "chase ",
     universe: 3,
     picture: "./assets/images/chase.jpg",
     alt: "Chase"
 };
 var rocky = {
-    answer: "rocky",
+    answer: "rocky ",
     universe: 3,
     picture: "./assets/images/rocky.jpg",
     alt: "Rocky"
 };
 var rubble = {
-    answer: "rubble",
+    answer: "rubble ",
     universe: 3,
     picture: "./assets/images/rubble.jpg",
     alt: "rubble"
