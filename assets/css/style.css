@@ -1,0 +1,38 @@
+
+    
+    .container {
+        margin: auto;
+        background-color: black;
+        color: red;
+        font-size: 24px;
+        font-family: 'Audiowide', cursive;
+        width: 55vw;
+
+    }
+    
+    Header {
+        font-family: 'Audiowide', cursive;
+        margin: auto;
+        text-align: center;
+        color: red;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    
+    img {
+        height: 200px;
+    }
+    
+    .previous{
+        height:250px;
+    }
+    #currentGame {
+        font-size: 42px;
+    }
+    
+    /*#currentImage {
+        Max-height:
+        max-width:
+    }*/
+    

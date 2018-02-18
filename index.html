@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset = "UTF-8">
-        <title>Hangman</title>
-        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-        <script src="./assets/javascript/game.js"></script>
-    </head>
 
-    <body>
-        <header>Hangman</header>
-        <div>
-            <h2>Last Game:</h2>
-            <img id="previousImg"> 
-            <span id = "previousAnswer"></span>
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="./assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Hangman</h1>
+        <p>Press the space bar to begin.</p>
+        <hr>
+    </header>
+    <div class="container">
+        <div class="row">
+            <h2 class="col-12">Last Game:</h2>
         </div>
-        <div>
-            <h2>Current Game:</h2>
-            <img id="currentImg">
-            <span id = "currentGame"></span>
+        <div class="row previous">
+            <div class="col-sm-12 col-md-6">
+                <div id="previousImg"></div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <span id="previousAnswer"></span>
+            </div>
         </div>
-        <div id = "score">
-            <h3>Score:</h3>
-           <h4>Wins:</h4> <span id = "wins"></span>
-            <h4>Lives remaining: </h4><span id = "strikes"></span>
+        <div class="row">
+            <div class="col-sm-12 col-md-6" id="game">
+                <h2 class="row">Current Game:</h2>
+                <div class="row" id="currentImg"></div>
+                <span class="row" id="currentGame"></span>
+            </div>
+            <div class="col-sm-12 col-md-6" id="score">
+                <h3>Score:</h3>
+                <h4>Wins:</h4>
+                <span id="wins"></span>
+                <h4>Lives remaining: </h4>
+                <span id="strikes"></span>
+                <h3>Guessed letters:</h3>
+                <div id="wrong"></div>
+            </div>
         </div>
-        <h3>Guessed letters:</h3>
-        <div id = "wrong"></div>
-    </body>
+    </div>
+</body>
+
 </html>
