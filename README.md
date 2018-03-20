@@ -1,6 +1,6 @@
 # Hangman
 Description:
-This game is the traditional hangman game.  It was made with my two nephews in mind as the target audience so there is a childish theme to it.  The game uses the background image as a clue for the word and at the end of the round a picture of the character is shown with the full answer.  It uses functions to take a keystroke and compare the letter of the key pressed to the answer and then places that letter in a new array at all the correct spots.
+This game is the traditional hangman game.  It was made with my two nephews in mind as the target audience so there is a childish theme to it.  The game uses the background image as a clue for the word and at the end of the round a picture of the character is shown with the full answer.  When the player correctly guesses the word they will get a point and hear an audioclip related to the word.  It uses functions to take a keystroke and compare the letter of the key pressed to the answer and then places that letter in a new array at all the correct spots.
 
 Deployment:
 This is a web based program so it will not require any additional programs to operate.  It was designed with Google Chrome as the default browser.
